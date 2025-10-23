@@ -74,7 +74,7 @@ const Products = ({ products, gap }: ProductsProps) => {
           </div>
         </nav>
 
-        {/* // FAV and BAG */}
+        {/* // FAV, BAG, BUYNOW */}
         <div className=" flex justify-between gap-5 items-center">
           {/* === FAV ICON */}
           {isLoaded && (
@@ -126,6 +126,9 @@ const Products = ({ products, gap }: ProductsProps) => {
             />
           </svg>
         </div>
+        <button className="text-white bg-green-500 py-2 px-4 rounded-md">
+          Buy Now
+        </button>
       </section>
     </div>
   );
